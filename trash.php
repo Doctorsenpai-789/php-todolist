@@ -34,15 +34,20 @@
 							
 							
                            <a class="btn btn-success" href="restore.php?trash_id=<?php echo $fetch['trash_id'];?>"><span class="glyphicon glyphicon-reset"></span> Restore</a>
+						   <a  class="btn btn-danger" href="harddelete.php?trash_id=<?php echo $fetch['trash_id']; ?>" ><span class="glyphicon glyphicon-trash"></span> Delete Permanently</a>
 						</td>
+					
 					</tr>
 					<?php
 				}
 			?>
 			</tbody>
 		</table>
+		<button class="btn btn-warning"><a href ="delete_all.php">Delete All Permanently</a></button>
 	</div>
+	
 
 </div>
+
 </body>
 </html>

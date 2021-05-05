@@ -68,6 +68,7 @@
 			?>
 			</tbody>
 		</table>
+		<button class="btn btn-warning"><a href ="clear_all.php">clear All</a></button>
 	</div>
 	<?php include('add_modal.php'); ?>
 </div>
