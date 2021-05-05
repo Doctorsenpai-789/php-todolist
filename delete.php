@@ -1,6 +1,6 @@
 <?php
 	include('conn.php');
-	// $id=$_GET['id'];
+
 
 	if(ISSET($_REQUEST['id'])){
 		$id = $_REQUEST['id'];
